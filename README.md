@@ -4,7 +4,11 @@ Ruby Intro
 This 3-part homework gives some basic practice in Ruby as well as
 getting you accustomed to making testing a regular part of your workflow.
 
-**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
+**NOTE** 
+
+GitHub Classroom will have created a repository specifically for you to work on this assignment. Ensure you're working in that repository. It will be named something like `ca1-ruby-{your-github-username}`. 
+Also ensure that you commit your solutions as you go, and push your commits to your remote repository on GitHub
+
 
 Learning Goals
 --------------
@@ -40,12 +44,10 @@ give you guidance as to which tests failed.  (You can check the [RSpec
 documentation](http://rspec.info) to see how the `.rspec` file can be
 used to customize the output format.)
 
-To ensure you have the rspec gem installed you need bundler and can then 
-run bundle install like so:
+To ensure you have the rspec gem installed you need to use bundler, which is pre-installed in the GitPod environment.  You can use it to install gems by running the `bundle` command in the same folder as the Gemfile (usually the top-level of the project):
 
 ```sh
-$ gem install bundler
-$ cd hw-ruby-intro
+$ cd /workspace/{name of your repository}
 $ bundle
 ```
 
@@ -112,7 +114,7 @@ part of the TDD or test-driven process of development: write the tests before
 you write the code, watch the test fail, fill in the code and save the code file, 
 then watch the test pass!
 
-* Try pairing using the [one-undermanship pair programming style](http://www.agileventures.org/remote-pair-programming/pair-programming-protocols)
+
 
 # Submission Directions
 
